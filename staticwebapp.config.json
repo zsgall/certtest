@@ -9,5 +9,11 @@
 		"404": {
 		  "rewrite": "/errors/404.html"
 		}
-	  }
+	  },
+	  "routes": [
+		  {
+			  "route": "/error",
+			  "rewrite": "/errors/403.html"
+		  }
+	  ]
 }
