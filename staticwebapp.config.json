@@ -1,5 +1,11 @@
 {   
 	"navigationFallback": {     
 	  "rewrite": "/index2.html" 
-	} 
-  }
+	},
+	"responseOverrides": {
+		"404": {
+			"rewrite": "/errors/404.html",
+			"statusCode": 200
+		}
+	}
+}
